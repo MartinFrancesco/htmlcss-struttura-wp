@@ -4,3 +4,62 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  margin: 10px;
+}
+
+.container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+/* HEADER */
+.top {
+  height: 20vh;
+  background: yellow;
+}
+
+/* MAIN CONTENT */
+.left {
+  width: 20%;
+  height: 500px;
+  background: blue;
+  float: left;
+}
+
+.center {
+  width: 50%;
+  height: 60vh;
+  margin: 0 10px;
+  background: red;
+  float: left;
+}
+
+.right1 {
+  width: 20%;
+  height: 200px;
+  background: green;
+  float: left;
+}
+
+.right2 {
+  width: 20%;
+  height: 200px;
+  margin-top: 10px;
+  background: green;
+  float: left;
+}
+
+.clearfix::after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+/* FOOTER */
+.bottom {
+  height: 20vh;
+  background: purple;
+}
